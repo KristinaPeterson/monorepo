@@ -1,0 +1,6 @@
+# Custom Headers must be nested inside a top-level customHeaders key
+customHeaders:
+  - pattern: '*.json'
+    headers:
+    - key: 'Location'
+      value: 'www.amazon.com'
